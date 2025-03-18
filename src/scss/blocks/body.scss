@@ -34,6 +34,10 @@ body {
     @include responsive(tablet) {
       grid-column: 1/3;
     }
+    @include responsive(desktop) {
+grid-column: 1/2;
+grid-row: 1/3;
+    }
 
   }
   .powerMode{
